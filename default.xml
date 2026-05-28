@@ -15,6 +15,7 @@
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
+  <remote name="fb" fetch="https://github.com/florianbaumgartl-ezurio"/>
   <remote name="boundary" fetch="https://github.com/boundarydevices"/>
   <remote name="ezurio" fetch="https://github.com/ezurio"/>
 
@@ -23,7 +24,7 @@
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="2b7433611d80f6d0ee1b04156fa91fc73d3c2665" upstream="scarthgap"/>
 
   <project name="meta-summit-radio" path="sources/meta-summit-radio" remote="ezurio" revision="lrd-13.24.0.x"/>
-  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary">
+  <project name="meta-boundary" path="sources/meta-boundary" remote="fb">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
     <linkfile dest="setup-environment-b2qt" src="tools/setup-environment-b2qt"/>
   </project>
